@@ -1,0 +1,107 @@
+
+.outfit-font {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300, 400, 600;
+    font-style: normal;
+  }
+
+
+html, body{
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    display:flex;
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 25rem;
+    height: 45rem;
+    box-shadow: 5px 10px 80px hsl(0, 0%, 0%);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.nft-photo {
+    width: auto;
+}
+
+.nft-cube {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.nft-details{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    justify-self: center;
+    margin: auto;
+}
+
+.nft-stats{
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+}
+
+.nft-collection-info{
+    color: hsl(0, 0%, 100%);
+}
+
+.etherium {
+    color: hsl(178, 100%, 50%);
+    display:flex;
+    margin: auto;
+}
+
+.time-left{
+    color: hsl(215, 51%, 70%);
+    display:flex;
+    align-self: left;
+}
+
+.clock-icon,  .etherium-icon{
+    height: 1rem;
+}
+
+.creator-info{
+    display:flex;
+    flex-direction: row;
+    color: hsl(215, 51%, 70%);
+}
+
+.creator-name {
+    color: hsl(0, 0%, 100%);
+}
+
+.creator-name:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.creator-pic{
+    height: 2rem;
+    border-color:hsl(0, 0%, 100%);
+    border-width: 2px;
+}
+
+
