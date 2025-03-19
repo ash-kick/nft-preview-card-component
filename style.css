@@ -36,6 +36,10 @@ main{
     width: auto;
 }
 
+.nft-photo:hover {
+    
+}
+
 .nft-cube {
     width: 100%;
     border-radius: 10px;
